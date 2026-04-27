@@ -59,17 +59,6 @@ An interactive web-based Rock Paper Scissors game with score persistence and a b
 
 ## 📸 Screenshots
 
-Place your screenshots in a `screenshots/` folder in the repository root:
-
-```
-screenshots/
-├── game-interface.png       # Main game interface
-├── game-result.png          # Game result screen
-└── score-tracking.png       # Score display
-```
-
-Then uncomment the sections below:
-
 ### Main Interface
 ![Game Interface](./screenshots/game-interface.png)
 
