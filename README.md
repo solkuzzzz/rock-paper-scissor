@@ -92,10 +92,6 @@ screenshots/
 
 [solkuzzzz](https://github.com/solkuzzzz)
 
-## 📝 Лицензия
-
-MIT
-
 ---
 
 **Приятной игры! 🎮**
