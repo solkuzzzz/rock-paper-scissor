@@ -4,7 +4,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="/game/10-rps.css">
+   <link rel="stylesheet" href="/10-rps.css">
    <title>Document</title>
 </head>
 
@@ -13,27 +13,27 @@
    <button class="move-button" onclick="
       playGame('rock');
    ">
-   <img class="move-icon" src="/game/images/rock-emoji.png" alt="rock">
+   <img class="move-icon" src="/images/rock-emoji.png" alt="rock">
 </button>
 
    <button class="move-button" onclick="
       playGame('paper');
-   "><img src="/game/images/paper-emoji.png" alt="paper" class="move-icon"></button>
+   "><img src="/images/paper-emoji.png" alt="paper" class="move-icon"></button>
 
    <button class="move-button" onclick="
       playGame('scissors');
-   "><img src="/game/images/scissors-emoji.png" alt="scissor" class="move-icon"></button>
+   "><img src="/images/scissors-emoji.png" alt="scissor" class="move-icon"></button>
 
    <p class="js-result result"></p>
-   <p class="js-score result"></p>
-   <p class="js-moves result"></p>
+   <p class="js-moves"></p>
+   <p class="js-score score"></p>
 
    <button onclick="
       score.wins = 0;
       score.losses = 0;
       score.ties = 0;
       localStorage.removeItem('score');
-      updateScoreElement();">Reset Score</button>
+      updateScoreElement();" class="reset-score-button">Reset Score</button>
 
    <script>
       let score = JSON.parse(localStorage.getItem('score')) || {
@@ -92,7 +92,8 @@
 
          document.querySelector('.js-result').innerHTML = result;
 
-         document.querySelector('.js-moves').innerHTML = `You ${playerMove} - ${computerMove} Computer`;
+         document.querySelector('.js-moves').innerHTML = `You <img src="/images/${playerMove}-emoji.png" class="move-icon">
+      <img src="/images/${computerMove}-emoji.png" class="move-icon"> Computer`;
       }
 
       function updateScoreElement() {
