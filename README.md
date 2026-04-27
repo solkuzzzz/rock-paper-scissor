@@ -1,84 +1,99 @@
 # 🎮 Rock Paper Scissors Game
 
-Интерактивная веб-игра "Камень-Ножницы-Бумага" с поддержкой сохранения счёта и красивым интерфейсом.
+An interactive web-based Rock Paper Scissors game with score persistence and a beautiful emoji-driven interface.
 
-## ✨ Особенности
+## ✨ Features
 
-- 🎯 Простой и интуитивный интерфейс с эмодзи
-- 💾 Автоматическое сохранение счёта в localStorage
-- 🤖 Случайный ход компьютера
-- 📊 Отслеживание побед, поражений и ничьих
-- 🔄 Кнопка сброса счёта
+- 🎯 Simple and intuitive interface with emoji buttons
+- 💾 Automatic score saving using localStorage
+- 🤖 Random computer moves
+- 📊 Track wins, losses, and ties
+- 🔄 Reset score button for a fresh start
 
-## 🚀 Как запустить
+## 🚀 Getting Started
 
-1. Клонируйте репозиторий:
+1. Clone the repository:
    ```bash
    git clone https://github.com/solkuzzzz/rock-paper-scissor.git
    cd rock-paper-scissor
    ```
 
-2. Откройте файл `10-rock-paper-scissor.html` в браузере двойным щелчком или через локальный сервер:
+2. Open `10-rock-paper-scissor.html` in your browser by double-clicking or using a local server:
    ```bash
-   # Если у вас установлен Python 3
+   # Using Python 3
    python -m http.server 8000
-   # или для Python 2
+   # or Python 2
    python -m SimpleHTTPServer 8000
    ```
 
-3. Откройте http://localhost:8000 в браузере
+3. Open http://localhost:8000 in your browser
 
-## 📁 Структура проекта
+## 📁 Project Structure
 
 ```
 .
-├── 10-rock-paper-scissor.html    # Главный файл HTML
-├── index.js                       # Логика игры
-├── 10-rps.css                     # Стили (если есть)
-├── images/                        # Папка с эмодзи
+├── 10-rock-paper-scissor.html    # Main HTML file
+├── index.js                       # Game logic
+├── 10-rps.css                     # Styles
+├── images/                        # Emoji images folder
 │   ├── rock-emoji.png
 │   ├── paper-emoji.png
 │   └── scissors-emoji.png
-└── README.md                      # Этот файл
+└── README.md                      # This file
 ```
 
-## 🎮 Правила игры
+## 🎮 Game Rules
 
-- **Камень** побеждает **Ножницы**
-- **Ножницы** побеждают **Бумагу**
-- **Бумага** побеждает **Камень**
-- При одинаковом выборе - **Ничья**
+- **Rock** beats **Scissors**
+- **Scissors** beats **Paper**
+- **Paper** beats **Rock**
+- Same choices result in a **Tie**
 
-## 💡 Как это работает
+## 💡 How to Play
 
-1. Нажмите на одну из кнопок (Камень, Бумага или Ножницы)
-2. Компьютер случайно выбирает свой ход
-3. Игра определяет победителя
-4. Счёт автоматически обновляется и сохраняется
-5. Кнопка "Reset Score" сбрасывает счёт
+1. Click one of the buttons (Rock, Paper, or Scissors)
+2. The computer randomly selects its move
+3. The game determines the winner
+4. Your score is automatically updated and saved
+5. Use the "Reset Score" button to start fresh
 
-## 📸 Скриншоты
+## 📸 Screenshots
 
-### Главный экран
-![Game Interface](screenshots/game-interface.png)
+Place your screenshots in a `screenshots/` folder in the repository root:
 
-### Результат игры
-![Game Result](screenshots/game-result.png)
+```
+screenshots/
+├── game-interface.png       # Main game interface
+├── game-result.png          # Game result screen
+└── score-tracking.png       # Score display
+```
 
-### Отслеживание счёта
-![Score Tracking](screenshots/score-tracking.png)
+Then uncomment the sections below:
 
-## 🛠️ Технологии
+### Main Interface
+![Game Interface](./screenshots/game-interface.png)
+
+### Game Result
+![Game Result](./screenshots/game-result.png)
+
+### Score Tracking
+![Score Tracking](./screenshots/score-tracking.png)
+
+## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
 - LocalStorage API
 
-## 👤 Автор
+## 👤 Author
 
 [solkuzzzz](https://github.com/solkuzzzz)
 
+## 📝 License
+
+MIT
+
 ---
 
-**Приятной игры! 🎮**
+**Enjoy the game! 🎮**
