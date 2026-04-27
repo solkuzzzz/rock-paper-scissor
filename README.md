@@ -75,14 +75,6 @@ An interactive web-based Rock Paper Scissors game with score persistence and a b
 - JavaScript (Vanilla)
 - LocalStorage API
 
-## 👤 Author
-
-[solkuzzzz](https://github.com/solkuzzzz)
-
-## 📝 License
-
-MIT
-
 ---
 
 **Enjoy the game! 🎮**
