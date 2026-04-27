@@ -84,14 +84,6 @@ Score tracking
 - JavaScript (Vanilla)
 - LocalStorage API
 
-## 👤 Author
-
-[solkuzzzz](https://github.com/solkuzzzz)
-
-## 📝 License
-
-MIT
-
 ---
 
 **Enjoy the game! 🎮**
