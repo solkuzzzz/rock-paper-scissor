@@ -59,18 +59,6 @@
 
 ## 📸 Скриншоты
 
-Скриншоты проекта можно добавить в папку `screenshots/` в корне репозитория:
-
-```
-screenshots/
-├── game-interface.png       # Основной интерфейс
-├── game-result.png          # Экран результата
-└── score-tracking.png       # Счёт
-```
-
-Затем вставьте в этот README:
-
-```markdown
 ### Главный экран
 ![Game Interface](screenshots/game-interface.png)
 
@@ -79,7 +67,6 @@ screenshots/
 
 ### Отслеживание счёта
 ![Score Tracking](screenshots/score-tracking.png)
-```
 
 ## 🛠️ Технологии
 
