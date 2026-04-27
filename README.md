@@ -60,13 +60,22 @@ An interactive web-based Rock Paper Scissors game with score persistence and a b
 ## 📸 Screenshots
 
 ### Main Interface
-![Game Interface](./screenshots/game-interface.png)
+<p align="center">
+Game interface
+    <img src="./screenshots/game-interface.png" width="49%">
+</p>
 
 ### Game Result
-![Game Result](./screenshots/game-result.png)
+<p align="center">
+Game result display
+    <img src="./screenshots/game-result.png" width="49%">
+</p>
 
 ### Score Tracking
-![Score Tracking](./screenshots/score-tracking.png)
+<p align="center">
+Score tracking
+    <img src="./screenshots/score-tracking.png" width="49%">
+</p>
 
 ## 🛠️ Technologies Used
 
